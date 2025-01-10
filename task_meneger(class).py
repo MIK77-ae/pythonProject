@@ -40,7 +40,7 @@ class TaskManager:
 
     def show_current_tasks(self):
         """Показать все невыполненные задачи"""
-        current_tasks = [task for task in self.tasks if not task.is_done()]
+        current_tasks = [task for task in self.tasks if not task.is_done()] # Результатом является новый список current_tasks, который содержит все задачи из self.tasks, для которых метод is_done() возвращает False (то есть, не выполненные задачи).
         if current_tasks:
             print("Невыполненные задачи:")
             for task in current_tasks:
