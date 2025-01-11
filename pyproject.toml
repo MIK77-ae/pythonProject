@@ -2,7 +2,7 @@
 name = "pycharm"
 version = "0.1.0"
 description = ""
-authors = ["MIK77-ae <me347481@gmail.com>"]
+authors = ["MIK77-ae"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
